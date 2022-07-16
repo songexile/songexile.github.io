@@ -2,16 +2,27 @@
   background-color: #231B1B ;
   margin: 0 auto;
   width: 75%;
-  height: 7rem;
+  height: 8rem;
   position: relative;
   top: 6rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  
 
 }
 
-.move-up{
-  background-color: gold;
-  top: -50rem;
+.navbar--name{
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  font-size: smaller;
 }
+
+
 
 .mainpage{
   margin: 0 auto;
@@ -19,6 +30,7 @@
   background-color: #D9D9D9;
   width: 90%;
   display: flex;
+  transform-style: preserve-3d;
 }
 
 .mainpage-middle-element{
@@ -28,18 +40,27 @@
   margin: 0 auto;
   position: relative;
   top: -35rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mainpage--left{
   background-color: #D9D9D9;
   width: 50%;
   display: flex;
+  transform-style: preserve-3d;
 }
+
 
 .mainpage--left--blur{
   position: absolute;
-  width: 600px;
-  height: 256px;
+  width: 200%;
+  height: 100%;
+  transform: translateZ(-10px);  
+  background: #742AAF;
+  filter: blur(1000px);
+  z-index: 0;
 }
 
 .mainpage--right{
@@ -54,17 +75,33 @@
   display: flex;
   height: 25rem;
   margin-top: 5rem;
+
+  
 }
 
 .box--innerbox{
   margin: auto;
   background-color: white;
   height: 80%;
-  width: 70%;
+  width: 80%;
   justify-content: center;
   align-items: center;
+  position: relative;
+  transform-style: preserve-3d;
 
 }
+
+
+
+.box--innerbox-blur{
+  filter: blur(50px);
+  height: 90%;
+  background: #742AAF;
+  transform: translateZ(-1px);
+}
+
+
+
 
 .mainpage--container{
   background-color: #D9D9D9;
@@ -77,7 +114,5 @@
   background-color: #2B2A2A;
   margin: auto;
   width: 90%;
-
-
   height: 5rem;
 }

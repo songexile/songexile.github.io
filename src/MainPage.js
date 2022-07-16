@@ -1,6 +1,9 @@
 import React from 'react'
 import Box from './components/Box'
 import Footer from './components/Footer'
+import Writer from './components/Writer'
+
+
 
 export const MainPage = () => {
   return (
@@ -12,7 +15,9 @@ export const MainPage = () => {
             </div>
             <div className='mainpage--right'></div>
     </div>
-    <div className='mainpage-middle-element'></div>
+    <div className='mainpage-middle-element'>
+      <Writer/>
+    </div>
 
     <div className='mainpage--container'>
         <Box/>
@@ -20,6 +25,7 @@ export const MainPage = () => {
         <Box/>
         
     </div>
+    
     <Footer/>
     </>
     
