@@ -3,6 +3,7 @@ import React from 'react'
 import Footer from './components/Footer'
 import Writer from './components/Writer'
 import Info from './components/Info'
+import Box from './components/Box'
 
 
 
@@ -23,13 +24,11 @@ export const MainPage = () => {
     </div>
 
     <div className='mainpage--container'>
-       
-    <Info/>
-        
+       <Info/> 
     </div>
     
    
-    <Footer/>
+ 
     </>
     
   )

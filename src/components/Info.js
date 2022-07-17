@@ -8,8 +8,9 @@ const Info = () => {
                 <div className='box--innerbox-content'>
                  <h1>Hello 😊 i'm Otis Wales.</h1>
                  <h2>I am a university student that studies Computer Science, I love thinking of ways to simplify life through the use of Computer Science.</h2>
-                 <h3>Currently learning <b>React</b>, <b>Javascript</b> and mastering <b>Java</b></h3>
+                 <h3>Currently learning <b>React</b>, <b>Javascript</b> and mastering <b>Java. 💻⌨</b></h3>
                  <img className='box--picture' src={Picture} width={200} height={200} alt="this is car image" />
+                 <a className='box--link' href="https://github.com/songexile">Github</a> 
                 </div>
             <div className='box--innerbox-blur'>
             </div>
