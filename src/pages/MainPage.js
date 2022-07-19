@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Footer from './components/Footer';
-import Writer from './components/Writer';
-import Info from './components/Info';
-import Box from './components/Box';
+import Footer from '../components/Footer';
+import Writer from '../components/Writer';
+import Info from '../components/Info';
+import Box from '../components/Box';
 
 
 

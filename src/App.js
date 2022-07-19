@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import MainPage from './MainPage';
+import MainPage from './pages/MainPage';
 import Footer from './components/Footer';
-import Projects from './Projects';
+import Projects from './pages/Projects';
 
 function App() {
   return (
