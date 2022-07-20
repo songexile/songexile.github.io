@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/my-site/static/css/main.6af5304b.css",
-    "main.js": "/my-site/static/js/main.f8b5626a.js",
-    "static/media/me.jpg": "/my-site/static/media/me.cc066203ae1ddb6ac176.jpg",
-    "index.html": "/my-site/index.html",
-    "main.6af5304b.css.map": "/my-site/static/css/main.6af5304b.css.map",
-    "main.f8b5626a.js.map": "/my-site/static/js/main.f8b5626a.js.map"
+    "main.css": "/songexile.github.io/static/css/main.6af5304b.css",
+    "main.js": "/songexile.github.io/static/js/main.8167266d.js",
+    "static/media/me.jpg": "/songexile.github.io/static/media/me.cc066203ae1ddb6ac176.jpg",
+    "index.html": "/songexile.github.io/index.html",
+    "main.6af5304b.css.map": "/songexile.github.io/static/css/main.6af5304b.css.map",
+    "main.8167266d.js.map": "/songexile.github.io/static/js/main.8167266d.js.map"
   },
   "entrypoints": [
     "static/css/main.6af5304b.css",
-    "static/js/main.f8b5626a.js"
+    "static/js/main.8167266d.js"
   ]
 }
